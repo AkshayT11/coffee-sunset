@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: "Montserrat", sans-serif;
+}
+
+.bg-coffee{
+    background: #281e1d;
+}
+.bg-light-orange{
+    background: #fff9f1;
+
+}
+.coffee-border{
+    border: 1px solid #feedd0;
+}
+h1{
+    color: #603807;
+    font-size: 50px; 
+    text-transform: capitalize;
+}
+.text-coffee{
+    color: #603807;
+}
+.nav-link{
+    color: #ffffffb3;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #fff;
+}
+.nav-link:hover{
+    color: #fff;
+}
+.navbar-toggler{
+    background-color: #fff;
+}
+
+/* Hero Section */
+
+.hero{
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("../images/banner.png");
+    background-size: cover;
+    color: #fff;
+}
+
+.hero .coffee{
+    font-family: "Dancing Script", cursive;
+    font-size: 165px;
+    font-weight: normal;
+}
+
+/* coffee section */
+.coffe-style img{
+    width: 100%;
+    height: 250px;
+}
+
+/* Morning coffee */
+
+.morning{
+    background: url("../images/morning.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    
+}
+
+.more-btn{
+    padding: 8px 16px;
+    color: #100901;
+    font-weight: 600;
+    border: none;
+    border-radius: 20px;
+    background-color: #f4ac54; 
+}
+
+/* Feedback Secion */
+
+.carousel-item{
+    height: 450px;
+}
+.carousel-caption{
+    top: 0px;
+    padding-top: 15%;
+}
+
+/* Subscribe section */
+
+.subscribe{
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("../images/subcoffee.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+
+}
+.subscribe .btn-sub{
+    padding: 7px 16px;
+    border: none;
+    background-color: #f4ac54;  
+    color: #100901; 
+    font-weight: 600;
+}
+
+/* Footer */
+
+.footer{
+    background: url("/assets/images/coffee-footer.jpg");
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    padding-block: 100px;
+}
+.footer h2{
+    font-family: "Dancing Script", cursive;
+    font-weight: 400;
+    font-size: 50px;
+}
+.footer p{
+    line-height: 2;
+    width: 60%;
+    text-justify:inherit
+}    
+
+.footer li{
+    list-style:none;
+    color: #feedd0;
+    padding: 6px 0;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
